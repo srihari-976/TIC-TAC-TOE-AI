@@ -1,45 +1,52 @@
 # AI Tic-Tac-Toe Agent
 
 ## Overview
-This project implements an AI Tic-Tac-Toe agent capable of playing the classic game against a human player. The AI utilizes the Minimax algorithm, a decision-making algorithm used in two-player games, to determine the best possible move at each turn. The primary objective of this project is to provide an engaging and challenging gameplay experience for users while showcasing the capabilities of the Minimax algorithm in solving games with perfect information.
+This project implements an AI-powered Tic-Tac-Toe agent that plays against a human player. The AI utilizes the **Minimax algorithm**, a decision-making approach used in two-player games, to determine the best possible move at each turn. The goal of this project is to provide an engaging and challenging gameplay experience while demonstrating the effectiveness of the Minimax algorithm in solving games with perfect information.
+
+🚀 **Check out the live version of Email SMS Spam Classifier Model!** 🚀
+
+[![Live Application](https://img.shields.io/badge/Live%20Application-Click%20Here-brightgreen)](https://tic-tac-toe-ai-eight-eta.vercel.app/)
+
 
 ## Features
-- AI-powered Tic-Tac-Toe gameplay against a human player.
-- Implements the Minimax algorithm for optimal decision-making.
-- Provides a customizable game board size (e.g., 3x3, 4x4, etc.).
-- Interactive user interface for seamless gameplay experience.
-- Real-time feedback on game status, including win, loss, or draw outcomes.
+- **AI-powered Tic-Tac-Toe** gameplay against a human player.
+- **Minimax algorithm** for optimal decision-making.
+- **Customizable game board size** (e.g., 3x3, 4x4, etc.).
+- **Interactive graphical user interface (GUI)** for seamless gameplay.
+- **Real-time feedback** on game status, including win, loss, or draw.
 
 ## Technologies Used
-- Python
-- Minimax Algorithm
-- Tkinter (Python GUI library)
+- **JavaScript**
+- **HTML & CSS**
+- **Minimax Algorithm**
 
 ## How to Play
-1. Clone or download the repository to your local machine.
-2. Make sure you have Python installed on your system.
-3. Run the game using Python:
-   ```bash
-   python tic_tac_toe.py
-   Follow the on-screen instructions to start the game.
-4. Choose the size of the game board (e.g., 3x3, 4x4, etc.).
-5. Play against the AI Tic-Tac-Toe agent by selecting your moves on the game board.
-6. The AI will respond with its moves based on the Minimax algorithm.
-7. Continue playing until one player achieves victory or the game ends in a draw.
-Example
+### 1. Clone the Repository
+```sh
+git clone https://github.com/srihari-976/TIC-TAC-TOE-AI.git
+cd TIC-TAC-TOE-AI
+```
+### 2. Open the Game
+Simply open the `index.html` file in your preferred web browser.
 
-Prerequisites
-Python 3.x installed on your system.
-Tkinter library installed (usually comes pre-installed with Python).
-Limitations
-The AI's performance may vary based on the size of the game board and the depth of the Minimax search tree.
-The implementation may not be optimized for extremely large game boards or deep search trees.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+### 3. Gameplay Instructions
+- Choose the size of the game board (e.g., 3x3, 4x4, etc.).
+- Play against the AI by selecting your moves on the game board.
+- The AI will respond with its best move based on the **Minimax algorithm**.
+- Continue playing until a player wins or the game ends in a draw.
 
-Contributing
-Contributions are welcome! Please feel free to submit a pull request with any improvements or bug fixes.
+## Example Screenshot
+(Include a screenshot of the game interface here if available)
 
-Acknowledgements
-This project was inspired by the classic game of Tic-Tac-Toe and the elegance of the Minimax algorithm.
-Special thanks to the open-source community for their valuable contributions and resources.
+## Limitations
+- The AI's performance depends on the board size and the depth of the Minimax search tree.
+- The implementation may not be optimized for **very large game boards** due to computational complexity.
+
+## Contributing
+Contributions are welcome! If you would like to enhance the project, feel free to submit a pull request with improvements or bug fixes.
+
+## Acknowledgements
+This project is inspired by the **classic game of Tic-Tac-Toe** and the elegance of the **Minimax algorithm**. Special thanks to the open-source community for valuable resources and contributions.
+
+---
+*Happy coding!* 🎮
