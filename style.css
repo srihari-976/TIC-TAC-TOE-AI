@@ -1,16 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 html, body {
-    margin: 0px;
-    padding: 50px;
-    background:url("/ai.jpeg");
-    background-size: cover;
-    
-    
-  }
-  canvas {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.game-container {
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #4ecca3;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.game-status {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+#status {
+    font-size: 1.2rem;
+    color: #4ecca3;
+}
+
+#game-board {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instructions {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.instructions h2 {
+    color: #4ecca3;
+    margin-bottom: 1rem;
+}
+
+.instructions p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+canvas {
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+canvas:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 600px) {
+    .game-container {
+        padding: 1rem;
+    }
     
-  }
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .instructions {
+        font-size: 0.9rem;
+    }
+}
 
   

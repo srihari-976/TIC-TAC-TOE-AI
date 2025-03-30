@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
-
+    <title>Tic Tac Toe AI</title>
   </head>
   <body>
-      
-      <script src="minimax.js"></script>
+    <div class="game-container">
+      <h1>Tic Tac Toe AI</h1>
+      <div class="game-status">
+        <p id="status">Your turn! Click to play</p>
+      </div>
+      <div id="game-board"></div>
+      <div class="instructions">
+        <h2>How to Play</h2>
+        <p>Click on any empty cell to make your move. The AI will respond automatically.</p>
+        <p>Try to get three in a row to win!</p>
+      </div>
+    </div>
+    <script src="minimax.js"></script>
     <script src="sketch.js"></script>
-    
   </body>
 </html>
